@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin","https://64aa5e52bcf4a17ab4b0befb--splendid-entremet-f800a9.netlify.app/");
+  res.setHeader("Access-Control-Allow-Origin","*");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
